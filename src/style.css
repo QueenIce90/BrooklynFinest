@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.container {
+  margin: 0rem;
+  text-align: center;
+}
+
+.nav{
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+  display: block;
+  padding: 0.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 2;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  /* background-color: #1d4ed8; */
+  color: inherit;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-family: 'Lobster',;
+  position: sticky;
+  top: 0%;
+
+}
+
+.nav li.active {
+  background-color: #555;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li a:not():hover {
+  /* background-color: #777; */
+  background-color: #172554;
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.activities img {
+  width: 100%;
+ 
+}
+
+
+.card {
+  width: 30rem;
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.activities-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card p {
+  font-family: 'Lobster', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+.home {
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: small
+}
+
+.home img {
+  width: 100%;
+  height: 20rem;
+}
+.brooklyn_image img {
+  width: 50%;
+  /* height: 20rem; */
+  margin-top: 0.5rem;
+}
+
+.location img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+ 
+  
+}
+.location h4 {
+  margin: 1%;
+}
+
+.brooklynbridge img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.brooklynbridge h5 {
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center
+ 
+
+  
+  
+}
+
+.coneyisland {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.coneyisland img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.coneyisland h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+.coneyisland button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+.prospectpark {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.prospectpark img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.prospectpark h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+.prospectpark button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+.btn {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  color: var(--clr-accent);
+  background-color: var(--clr-rgba);
+  border: 10px solid var(--clr-accent);
+  border-radius: 5px;
+
+  /* transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
+
+  transition: all 0.3s;
+
+  
+}
+
+
+
+@keyframes slideInLeft {
+  from{
+    transform: translateX(-300px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+ .nav h1 {
+  animation: slideInLeft 1s ease-in both;
+  transform: translateX(-150px);
+}
+
+.brooklynmuseum {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.brooklynmuseum img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.brooklynmuseum h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+.brooklynmuseum button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+
+.bushwickcollective{
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.bushwickcollective img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bushwickcollective h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+.bushwickcollective button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+
+.industrycity{
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.industrycity img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.industrycity h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+}
+
+.industrycity button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+.fleamarket {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.fleamarket img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.fleamarket h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+
+.fleamarket button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+
+.heightspromenade {
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  transition: all 0.2s;
+  width: 100%;
+  
+}
+
+.heightspromenade img {
+  width: 55%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.heightspromenade h5 {
+  display: flex;
+  font-family: 'Lobster', ;
+  font-family: 'Roboto', ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.25rem;
+  border: none;
+  font-family: inherit;
+  transition: all 0.2s;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content:center;
+  text-align: center
+  
+  
+  
+}
+
+.heightspromenade button {
+  transform: translateY(-10px);
+  background-color: var(--clr-accent);
+  color:var(--clr-light);
+}
+
+
+
+
+
+
+
+

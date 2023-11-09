@@ -1,0 +1,103 @@
+{
+  "Brooklyn": [
+    {
+      "id": 1,
+      "name": "Brooklyn Bridge Park",
+      "location": "Address: 360 Furman St, Brooklyn, NY 11201",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Enjoy stunning views of the Manhattan skyline, go for a walk or run, have a picnic, or play sports",
+      "image": "https://image.newyorkcity.ca/wp-content/uploads/2014/10/Brooklyn-Bridge-Park-in-New-York-1.jpg",
+      "activityimage": "https://www.nymetroparents.com/columnpic2/east-river-state-park.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Prospect Park",
+      "location": "Address: 112 Ocean Ave, Brooklyn, NY 11225",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Visit the lake, go for a jog, have a BBQ, or explore the various trails and nature attractions.",
+      "image": "https://cdn.cms.prod.nypr.digital/original_images/Soldiers_and_Sailors_Arch_Lighting_Design_Test_2019_c._Jordan_Rathkopf.jpg",
+      "activityimage": "https://cdn.getyourguide.com/img/tour/5b093924df026.jpeg/97.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Coney Island Beach & Boardwalk",
+      "location": "Address: 1000 Surf Avenue, Brooklyn, NY 11224",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Relax on the beach, take a stroll along the iconic boardwalk, or catch a free fireworks display during the summer.",
+      "image": "https://static.wixstatic.com/media/feddcd_44de6fad18254f26b92593748b61a496~mv2.jpg/v1/fit/w_2500,h_1330,al_c/feddcd_44de6fad18254f26b92593748b61a496~mv2.jpg",
+      "activityimage": "https://lunaparknyc.com/app/uploads/2017/04/Cyclone-image-sub-%E2%80%93-01.png"
+    },
+    {
+      "id": 4,
+      "name": "Brooklyn Botanic Garden",
+      "location": "Address: 150 Eastern Parkway, Brooklyn, NY 11238",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Free entry on Tuesdays and Saturdays (before 12 PM), explore the beautiful gardens, and enjoy special exhibitions and events.",
+      "image": "https://a.cdn-hotels.com/gdcs/production32/d740/be2742ab-90ff-491b-ac42-3ff230806663.jpg",
+      "activityimage": "https://static.nycgovparks.org/images/photo_gallery/full_size/22802.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Brooklyn Museum",
+      "location": "Address: 200 Eastern Pkwy, Brooklyn, NY 11238",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Free entry on the first Saturday of each month, immerse yourself in art, cultural artifacts, and temporary exhibitions.",
+      "image": "https://static01.nyt.com/images/2021/05/25/arts/25brooklyn-museum-union/merlin_158608158_d452565b-d2d5-4b61-b879-97b731bb17bd-superJumbo.jpg",
+      "activityimage": "https://situ.nyc/img/ekhYQmxQbDJnNEVjeTFUeU1VOW9BZz09/situ-studio-brooklyn-museum-visitor-experience-new-york-architecture-design-01.jpg"
+    },
+    {
+      "id": 6,
+      "name": "The Bushwick Collective",
+      "location": "Address: 427 Troutman St, Brooklyn, NY 11237",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Take a self-guided tour of the vibrant street art scene in Bushwick, where walls are adorned with colorful murals.",
+      "image": "https://i0.wp.com/altinnov.blog/wp-content/uploads/2018/07/Image-daccueil.jpg?resize=1140%2C641&ssl=1",
+      "activityimage": "https://images.squarespace-cdn.com/content/v1/5f2ecc8594a1d33040f8464a/1682264609226-HM50J9F91B32Q6H6XK0E/Bushwick-Collective-Brooklyn-Block-Party-2023.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Industry City",
+      "location": "Address: 220 36th St, Brooklyn, NY 11232",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Explore this waterfront complex with shops, food vendors, art galleries, and enjoy events and live performances.",
+      "image": "https://industrycity.com/wp-content/uploads/2020/03/the-campus.jpg",
+      "activityimage": "https://www.tripsavvy.com/thmb/dROfKOzcUzyqzlQ-GbVniiVVacg=/2048x1365/filters:no_upscale():max_bytes(150000):strip_icc()/yogacopy-5b310fdd1d64040037e155e7.png"
+    },
+    {
+      "id": 8,
+      "name": "Brooklyn Flea Market",
+      "location": "Address: 80 Pearl St, Brooklyn, NY 11201",
+      "Hours": "Saturday 10AM-5PM | Sunday 10AM-5PM",
+      "activites": " Browse through vintage treasures, antiques, and unique crafts at this famous flea market that takes place on weekends.",
+      "image": "https://media.timeout.com/images/105876862/image.jpg",
+      "activityimage": "https://afar.brightspotcdn.com/dims4/default/c9675b6/2147483647/strip/true/crop/556x382+0+87/resize/660x453!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fe3%2F34%2Fa4824c56a7d5175de396e498c66f%2Foriginal-40139651-10156650635619222-8266827127194648576-n.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Brooklyn Heights Promenade",
+      "location": "Address: Montague St &, Pierrepont Pl, Brooklyn, NY 11201",
+      "Hours": "Sunday 6AM-1AM | Monday 6AM-1AM | Tuesday 6AM-1AM | Wednesday 6AM-1AM | Thursday 6AM-1AM | Friday 6AM-1AM | Saturday 6AM-1AM",
+      "activites": "Take a leisurely stroll along the promenade while enjoying beautiful views of the Manhattan skyline and the Brooklyn Bridge.",
+      "image": "https://famousankles.files.wordpress.com/2007/09/20070901-brooklyn-heights-25-promenade-view.jpg",
+      "activityimage": "https://images.ctfassets.net/1aemqu6a6t65/1miJeeUxGAnqWW11mfEAFT/022dc9e4d49ae81de2faf843940ee5c8/brooklyn-heights-promenade-04-myrna-suarez?q=72&w=1200&h=630&fit=fill"
+    },
+    {
+      "id": 10,
+      "name": "Green-Wood Cemetery",
+      "location": "Address: 500 25th St, Brooklyn, NY 11232",
+      "Hours": "Sunday 6AM-6PM | Monday 8AM-6PM | Tuesday 8AM-6PM | Wednesday 8AM-6PM | Thursday 8AM-6PM | Friday 8AM-6PM | Saturday 8PM-6PM",
+      "activites": "Visit this historic cemetery, which also serves as a peaceful park, with beautiful landscapes, architecture, and occasional events.",
+      "image": "https://www.dominicanabroad.com/wp-content/uploads/2021/12/green-wood-cemetery-entrance.jpg",
+      "activityimage": "https://media.timeout.com/images/105305448/750/422/image.jpg"
+    },
+    {
+      "name": "Central Park Conservancy",
+      "location": "Central Park",
+      "activites": "Sitting",
+      "image": "https://s3.amazonaws.com/assets.centralparknyc.org/media/images/locations/_1650x767_crop_center-center_none/Conservatory-Garden_20181023_0024.jpg",
+      "activityimage": "https://media.istockphoto.com/id/1177423082/photo/bearded-man-talking-to-a-young-female-seated-on-a-banner.jpg?s=612x612&w=0&k=20&c=0p8s9Dfjo9cEWAVDbTo6yS0zF_86NyTWd1lHDO-dds8=",
+      "Hours": "8-9",
+      "id": 11
+    }
+  ]
+}
